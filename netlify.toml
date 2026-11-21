@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# Netlify Server runs the Express + WebSocket backend.
+# Static files from dist/ are served by the CDN; everything else
+# (including /api/* and /ws) reaches the server by default.
+[server]
+  size = "small"

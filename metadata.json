@@ -1,0 +1,6 @@
+{
+  "name": "Recruitment Messenger",
+  "description": "Private candidate-recruiter communication, availability management, interview scheduling, calling, and team administration platform for US IT staffing teams.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
